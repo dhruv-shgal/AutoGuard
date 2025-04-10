@@ -1,6 +1,6 @@
-# 💤 Drowsiness Detection System
+# 💤 AUTOGUARD - Drowsiness Detection System
 
-The **Drowsiness Detection System** is an AI-powered safety solution designed to monitor and detect signs of driver fatigue or drowsiness using computer vision and deep learning techniques. Built with OpenCV, TensorFlow, and Keras, this project classifies facial features into alert, drowsy, or sleepy states based on real-time video analysis.
+The **AUTOGUARD** is an AI-powered safety solution designed to monitor and detect signs of driver fatigue or drowsiness using computer vision and deep learning techniques. Built with OpenCV, TensorFlow, and Keras, this project classifies facial features into alert, drowsy, or sleepy states based on real-time video analysis.
 
 ---
 
@@ -56,30 +56,39 @@ The **Drowsiness Detection System** is an AI-powered safety solution designed to
 4. Run Real-time Detection
    ```bash 
    python detect_drowsiness_live.py
+
 💡 Make sure your webcam is accessible and YOLOv8/Keras model weights are in the correct folder.
 
-📊 Performance Metrics
+---
+
+##📊 Performance Metrics
 Metric	Training Set	Validation Set
 Accuracy	96%	91%
 Precision	94%	89%
 Recall	95%	90%
 F1-Score	94%	89%
 
-🧪 Testing & Evaluation
+---
+
+##🧪 Testing & Evaluation
 Evaluation using a confusion matrix and classification report
 
 Real-world testing in various lighting conditions
 
 Threshold tuning for reducing false positives
 
-🧩 Challenges Faced
+---
+
+##🧩 Challenges Faced
 Variability in lighting and facial features
 
 Overfitting — mitigated using data augmentation and dropout
 
 Difficulty distinguishing small eyes vs closed eyes in certain frames
 
-🔮 Future Scope
+---
+
+##🔮 Future Scope
 Integration with IoT devices for in-car alert systems
 
 Edge device optimization (Raspberry Pi, Jetson Nano)
@@ -88,10 +97,14 @@ Incorporating video temporal patterns for improved detection
 
 Multimodal sensor integration (e.g., yawning detection, pulse)
 
-🙌 Acknowledgments
+---
+
+##🙌 Acknowledgments
 This project was created as part of the 5th semester Practical Training for the B.Tech (CSE-AI&ML) program at Dronacharya College of Engineering, Gurugram
 
-🔗 References
+---
+
+##🔗 References
 OpenCV Documentation
 
 TensorFlow
